@@ -16,7 +16,7 @@ feature "add tag" do
    end
   end
 
-  scenario "adding multple tags" do
+  scenario "adding multiple tags" do
     visit('links/new')
     fill_in :url, with: "https://www.apoorva.com"
     fill_in :title, with: "apoorva"
