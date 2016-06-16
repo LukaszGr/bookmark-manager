@@ -1,1 +1,1 @@
-require './app/app.rb'
+# require './app/app.rb'
