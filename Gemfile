@@ -10,6 +10,7 @@ ruby '2.1.5'
  gem 'dm-postgres-adapter'
  gem 'rake'
  gem 'bcrypt'
+ gem 'sinatra-flash'
 
  group :test do
    gem 'database_cleaner'
