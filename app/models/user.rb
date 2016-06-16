@@ -10,9 +10,12 @@ class User
   attr_accessor :password_confirmation
 
   validates_confirmation_of :password
+  validates_presence_of :email
+
+
 
   property :id, Serial
-  property :email, String
+  property :email, String, format: :email_address, required: true
   property :password_digest, String, length: 60
 
   def password=(password)
