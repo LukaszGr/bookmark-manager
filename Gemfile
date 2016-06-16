@@ -9,6 +9,7 @@ ruby '2.1.5'
  gem 'data_mapper'
  gem 'dm-postgres-adapter'
  gem 'rake'
+ gem 'bcrypt'
 
  group :test do
    gem 'database_cleaner'
